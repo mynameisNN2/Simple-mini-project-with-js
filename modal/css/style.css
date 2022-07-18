@@ -1,0 +1,49 @@
+#mybtn {
+    padding: 15px 25px;
+    color: white;
+    background-color: black;
+    opacity: 0.86;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#mybtn:hover {
+    opacity: 1;
+}
+
+.modal {
+    width: 350px;
+    background-color: #eee;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+    top: 0;
+    right: 5px;
+    position: fixed;
+    transition: all 0.85s;
+    display: none;
+}
+
+.modal-content {
+    position: relative;
+    text-align: center;
+}
+
+.modal-content .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    font-size: large;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: 900;
+    opacity: 0.65;
+}
+
+.modal-content .close:hover {
+    opacity: 1;
+}
