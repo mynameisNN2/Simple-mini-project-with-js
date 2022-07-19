@@ -1,0 +1,35 @@
+.btn {
+    padding: 12px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    z-index: 99;
+    position: fixed;
+    transition: all 0.6s;
+    right: 30px;
+    bottom: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+
+.container .header {
+    text-align: center;
+    color: rgb(167, 8, 50);
+    height: 45px;
+    width: 100%;
+    background-color: #eee;
+}
+
+.content p {
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0 10px;
+}
